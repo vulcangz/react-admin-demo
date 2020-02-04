@@ -1,6 +1,6 @@
 # React-admin Demo
 
-This is a demo of the [react-admin](https://github.com/marmelab/react-admin) library for React.js. It creates a working administration for a fake poster shop named Posters Galore. You can test it online at http://marmelab.com/react-admin-demo.
+This is a demo of the [react-admin](https://github.com/marmelab/react-admin) library for React.js. Fork from [React-admin Demo](https://github.com/vulcangz/react-admin/tree/demo_dev/examples/demo). Separated from react-admin repository. It creates a working administration for a fake poster shop named Posters Galore. You can test it online at http://marmelab.com/react-admin-demo.
 
 [![react-admin-demo](https://marmelab.com/react-admin/img/react-admin-demo-still.png)](https://vimeo.com/268958716)
 
@@ -10,17 +10,35 @@ To explore the source code, start with [src/App.js](https://github.com/marmelab/
 
 **Note**: This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+## Why
+
+The original [examples/demo](https://github.com/vulcangz/react-admin/tree/demo_dev/examples/demo) requires the react-admin repository to run. After separation, it can be used as a front-end template based on the react + react-redux + react-sega + material-ui + react-admin technology stack.
+
 ## How to run
 
-After having cloned the react-admin repository, run the following commands at the react-admin root:
+After having cloned this repository, run the following commands at the react-admin root:
 
 ```sh
-make install
+yarn install
 
-make build
+yarn build
 
-make run-demo
+yarn start
 ```
+
+## Credits
+
+Thank you to the following **GIANTS**:
+
+* [github.com/facebook/react/](https://github.com/facebook/react/) [Docs](https://zh-hans.reactjs.org/)
+
+* [github.com/marmelab/react-admin](https://github.com/marmelab/react-admin) [Docs](https://marmelab.com/react-admin/Readme.html)
+
+* [github.com/mui-org/material-ui](https://github.com/mui-org/material-ui) [Docs](https://material-ui.com/zh/)
+
+* [github.com/reduxjs/react-redux](https://www.github.com/reduxjs/react-redux) [Docs](https://react-redux.js.org/)
+
+* [github.com/redux-saga/redux-saga](https://github.com/redux-saga/redux-saga) [Docs](https://redux-saga.js.org/)
 
 ## Available Scripts
 
